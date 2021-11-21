@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+.bg-success {
+    background: #29CC97 !important;
+}
+
+.bg-secondary {
+    background: #F0F1F7 !important;
+}
+
+.bg-light {
+    background-color: #F7F8FC !important;
+}
+
+.bg-grey {
+    background-color: #32333c;
+    
+}
+
+.bg-white {
+    background-color: #DFE0EB;
+}
+
+.text-color-grey {
+    color: rgb(159, 159, 159);
+}
+
+body {
+    font-size: .875rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Sidebar starts*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    /* rtl:raw:
+    right: 0;
+    */
+    bottom: 0;
+    /* rtl:remove */
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+#sidebarMenu ul li a{
+    color: gray;
+    text-decoration: none;
+}
+/* Sidebar ends*/
+
+
+/* Main Content starts */
+/* State starts */
+.state-section .state-block{
+    border: 1px solid #DFE0EB;
+    ;
+}
+
+.state-section .state-block p:first-of-type{
+    color: #9FA2B4;
+}
+
+.state-section .state:hover > .state-block {
+    border: 1px solid #3751FF;
+}
+
+.state-section .state-block:hover > p{
+    color: #3751FF;
+}
+/* State ends */
+
+
+
+/* Graphic Section starts*/
+.graphic-section img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.graphic-section span {
+    width: 16px;
+    height: 0;
+    border: 2px solid #3751FF;
+}
+
+.graphic-section .yesterday {
+    border: 2px solid #b5b5b5;
+}
+
+
+/* Graphic Section ends */
+
+
+/* tasks-section starts */
+.tasks-section .chip {
+    border-radius: 8px;
+}
+
+.tasks-section input {
+    height: 20px;
+    width: 20px;
+}
+
+.tasks-section .radio {
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.tasks-section .active-color {
+    color: #3751FF;
+}
+/* tasks-section ends */
+
+/* Main Content ends */

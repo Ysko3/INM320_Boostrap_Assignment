@@ -1,0 +1,13 @@
+{
+  "name": "INM320SAABoostrap",
+  "version": "3.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Yung-Shin",
+  "license": "private",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
